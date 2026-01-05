@@ -1,0 +1,38 @@
+# ────────────── KiCad project files ──────────────
+*.kicad_prl           # KiCad project local settings
+*.kicad_sch-bak       # Schematic backups
+*.kicad_pcb-bak       # PCB backups
+*.bak
+_autosave-*
+__pycache__/
+
+# ────────────── Simulation / output ──────────────
+*.net
+*.xml
+*.csv
+*.tmp
+*.log
+*.raw
+
+# ────────────── Lock and temporary files ──────────────
+*.lck
+*.lock
+~$*
+
+# ────────────── OS-specific ──────────────
+.DS_Store
+Thumbs.db
+
+# ────────────── Archives / exports ──────────────
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# ────────────── Optional generated assets ──────────────
+build/
+out/
+cache/
+
+# odds and ends
+fp-info-cache
